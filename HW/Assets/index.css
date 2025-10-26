@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: orange;
+    padding: 300px;
+}
+
+.container{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.floor{
+    background-color: orangered;
+    border-radius: 15px;
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.body{
+    width: 200px;
+    height: 75px;
+    background-color: #6e4339;
+    position: relative;
+    top: 50%;
+    bottom: 30%;
+    right: 21%;
+    left: 21%;
+    border-radius: 37.5px;
+    z-index: 4;
+}
+
+.leg1{
+    width: 30px;
+    height: 40px;
+    background-color: #5e382f;
+    position: relative;
+    top: 85%;
+    left: 15%;
+    z-index: 3;
+}
+
+.leg2{
+    width: 30px;
+    height: 40px;
+    background-color: #421c15;
+    position: relative;
+    left: 18%;
+    top: 32%;
+    z-index: 2;
+}
+
+.head{
+    width: 100px;
+    height: 180px;
+    background-color: #6e4339;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-radius: 50px 50px 25px 25px;
+    z-index: 2;
+}
+
+.hand1{
+    width: 60px;
+    height: 115px;
+    background-color: #955a50;
+    position: absolute;
+    left: 42%;
+    top: -10%;
+    border-radius: 17px 12px 23px 0px;
+    z-index: 3;
+}
+
+.hand2{
+    width: 60px;
+    height: 115px;
+    background-color: #421c15;
+    position: absolute;
+    left: 130%;
+    border-radius: 17px 12px 23px 0px;
+    z-index: 1;
+}
+
+.claw1{
+    width: 60px;
+    height: 20px;
+    background-color: #f6be9c;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    border-radius: 0 0 23px 23px;
+    z-index: 2;
+}
+
+.claw2{
+    width: 60px;
+    height: 20px;
+    background-color: #421c15;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    border-radius: 0 0 23px 23px;
+    z-index: 1;
+}
+
+.eye1{
+    width: 22px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    border-radius: 0 0 11px 11px;
+}
+
+.eye2{
+    width: 22px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.eyebrow{
+    width: 50px;
+    height: 7px;
+    background-color: black;
+    position: absolute;
+    bottom: 100%;
+    left: -10%;
+    border-radius: 3.5px;
+}
+
+.pupil1{
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+}
+
+.pupil2{
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+}
+
+.nose1{
+    width: 40px;
+    height: 40px;
+    background-color: #ee435f;
+    border-radius: 20px;
+    position: absolute;
+    top: 22%;
+    left: 27%;
+    z-index: 2;
+}
+
+.nose2{
+    width: 40px;
+    height: 40px;
+    background-color: #ee435f;
+    border-radius: 20px;
+    position: absolute;
+    top: 22%;
+    left: 55%;
+    z-index: 2;
+}
+
+.hole1{
+    width: 16px;
+    height: 16px;
+    background-color: #a82a41;
+    border-radius: 8px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 3;
+}
+
+.hole2{
+    width: 16px;
+    height: 16px;
+    background-color: #a82a41;
+    border-radius: 8px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 3;
+}
+
+.mouth{
+    width: 67px;
+    height: 40px;
+    background-color: #f6be9c;
+    border-radius: 27.5px;
+    position: absolute;
+    top: 35%;
+    left: 31%;
+    z-index: 1;
+}
+
+.teeth{
+    width: 20px;
+    height: 6px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    top: 42%;
+    left: 36%;
+}
+
+.ear1{
+    width: 34px;
+    height: 34px;
+    background-color: #6e4339;
+    border-radius: 17px;
+    position: absolute;
+    top: 10%;
+    left: -25%;
+}
+
+.ear2{
+    width: 34px;
+    height: 34px;
+    background-color: #421c15;
+    border-radius: 17px;
+    position: absolute;
+    top: 10%;
+    right: -15%;
+}
+
+.hair1{
+    width: 20px;
+    height: 30px;
+    background-color: #6e4339;
+    border-radius: 15px 0 0 0;
+    position: absolute;
+    top: -9%;
+    left: 50%;
+}
+
+.hair2{
+    width: 14px;
+    height: 20px;
+    background-color: #6e4339;
+    border-radius: 10px 0 0 0;
+    position: absolute;
+    top: -6%;
+    left: 35%;
+}
+
+.hole3{
+    width: 20px;
+    height: 20px;
+    background-color: #421c15;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
